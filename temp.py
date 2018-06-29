@@ -10,12 +10,12 @@ requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
 # Address of the WTI device
 URI = "https://"
-SITE_NAME = "192.168.0.158"
+SITE_NAME = "rest.wti.com"
 BASE_PATH = "/api/v2/status/temperature"
 
 # put in the username and password to yuor WTI device here
-USERNAME = "super"
-PASSWORD = "super"
+USERNAME = "rest"
+PASSWORD = "restfulpassword"
 
 iCount = 0
 iFail  = 0
