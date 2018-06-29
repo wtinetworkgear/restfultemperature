@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import json
-import os, time
+import os
 import requests
 
 # supress Unverified HTTPS request, only do this is a verified environment
@@ -39,4 +39,3 @@ try:
 
 except requests.exceptions.RequestException as e:  # This is the correct syntax
 	print (e)
-	time.sleep(60)
