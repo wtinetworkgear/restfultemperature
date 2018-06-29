@@ -4,7 +4,7 @@ import json
 import os
 import requests
 
-# supress Unverified HTTPS request, only do this is a verified environment
+# supress Unverified HTTPS request, only do this in a verified environment
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
