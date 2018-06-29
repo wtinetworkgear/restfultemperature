@@ -17,7 +17,7 @@ On the WTI device itself you need to make sure that the user you are logging on 
 # To Run:
 `python temp.py`
 
-The current temperature and the timestamp of the device will repeat on the screen.
+The current temperature, degree units and the timestamp of the device will display on the screen.
 
 # RESTful API Documentation:
 
