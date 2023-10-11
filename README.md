@@ -8,10 +8,12 @@ This `Get Temperature` Python script will work on any modern WTI device, the tem
 By default, WTI has setup a unit that everyone can try. The default BASE_PATH and USERNAME and PASSWORD can be used to query the WTI device without physically having one and get the general look and feel of the calls.
 
 If you have your own WTI device, in the Python script you need to change:
-- BASE_PATH to the address of your WTI device
-- USERNAME and PASSWORD to the correct values for your WTI device.
+- SITE_NAME: The address of your WTI device
+- BASE_PATH: The path of the Temperature call.
+- USERNAME and PASSWORD: The correct values for a Username/Password of your WTI device if using BASIC Authentication.
+- PASSWORD: The correct values for a User Token of your WTI device if using User Token Authentication
 
-On the WTI device itself you need to make sure that the user you are logging on has "Service Access" to run RESTful API calls. If you need help with this, you can get details at this link. http://wtiknows.com/2018/06/29/restful-user-service-access/
+On the WTI device itself you need to make sure that the user you are logging on has "Service Access" to run RESTful API calls. If you need help with this, you can get details at this link. https://www.wti.com/blogs/knowledge-base/restful-user-service-access?_pos=1&_sid=f13c13f84&_ss=r
 
 
 # To Run:
@@ -26,7 +28,7 @@ The HTML, RAML OR OpenAPI/Swagger file relating to the RESTful API calls can be 
 https://www.wti.com/t-wti-restful-api-download.aspx
 
 # Contact US
-If you have any questions, comments or suggestions you can email us at kenp@wti.com
+If you have any questions, comments or suggestions you can email us at service@wti.com
 
 # About Us
 WTI - Western Telematic, Inc.
