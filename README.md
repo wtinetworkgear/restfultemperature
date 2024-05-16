@@ -1,8 +1,8 @@
 # WTI RESTful - Get Temperature.
 
-This is a "Hello World" Python script on how to talk to WTI devices with RESTful calls.
+This is a "Hello World" Python and Lua script on how to talk to WTI devices with RESTful calls.
 
-This `Get Temperature` Python script will work on any modern WTI device, the temperature RESTful call is universal on all WTI OOB and PDU type devices making it the perfect starting point to start learning and experimenting with the RESTful interface.
+This `Get Temperature` Python and Lua script will work on any modern WTI device, the temperature RESTful call is universal on all WTI OOB and PDU type devices making it the perfect starting point to start learning and experimenting with the RESTful interface.
 
 # To Configure Python Script:
 By default, WTI has setup a unit that everyone can try. The default BASE_PATH and USERNAME and PASSWORD can be used to query the WTI device without physically having one and get the general look and feel of the calls.
@@ -16,8 +16,11 @@ If you have your own WTI device, in the Python script you need to change:
 On the WTI device itself you need to make sure that the user you are logging on has "Service Access" to run RESTful API calls. If you need help with this, you can get details at this link. https://www.wti.com/blogs/knowledge-base/restful-user-service-access?_pos=1&_sid=f13c13f84&_ss=r
 
 
-# To Run:
+# To Run with Python:
 `python temp.py`
+
+# To Run with Lua:
+`lua temp.lua`
 
 The current temperature, degree units and the timestamp of the device will display on the screen.
 
