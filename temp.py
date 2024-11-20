@@ -37,7 +37,7 @@ try:
 
 		print("Current Temperature is")
 		print("----------------------")
-		print(cszTemperature+ " " +cszTemperatureFormat + " @ "+cszTimeStamp+"\r\n")
+		print(f"{cszTemperature} {cszTemperatureFormat} @ {cszTimeStamp}\r\n" )		
 		print(URI+SITE_NAME+BASE_PATH)
 	else:
 		print(r.status_code)
